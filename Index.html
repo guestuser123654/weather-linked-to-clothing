@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body id="box">
+    <!--City searchbar and location button-->
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="search">
+                    <input type="text" placeholder="Zoek" id="search-txt">
+                    <a id="search-btn" href="#"><i class="fa fa-search" style="margin-left:-22px;"></i></a>
+                </div>
+                <div>
+                    <button class="button" onclick="getLocation()"><i class="fa fa-location-arrow"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--weather field-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="infoBox">
+                    <h3 id='json'></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="fashion" class="fashionBox">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="zoek.js"></script>
+
+
+    </html>
