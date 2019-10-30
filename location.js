@@ -1,10 +1,11 @@
+var apiKey = " "; //add your apikey from openweathermap.org here
+
 var geoVar;
 var test;
 var json_html = document.getElementById("json");
 let json_temp;
 let json_rainArray;
 var url;
-var apiKey = " "; //add your apikey from openweathermap.org here
 var rainURL = "url('https://wallpaperbro.com/img/2154.jpg') no-repeat right top";
 var sunUrl = "url(https://img1.nickiswift.com/img/uploads/2017/09/what-the-sun-baby-from-teletubbies-looks-like-today.jpg) no-repeat center center fixed";
 var autumnUrl = "url(http://cdn.desktopwallpapers4.me/wallpapers/nature/1920x1200/2/11093-cloudy-autumn-1920x1200-nature-wallpaper.jpg) no-repeat center center fixed";
