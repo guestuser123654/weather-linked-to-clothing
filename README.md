@@ -12,7 +12,7 @@ The JavaScript files mainly have the same function but are split so they don't h
 ### Prerequisites
 To edit the code you'll need a code editor. 
 
-##### Recommendations
+- Recommendations
 
 Visual Studio Code https://code.visualstudio.com/ 
   I recommend Visual Studio Code. It's an easy to use system with lots of expansions.
